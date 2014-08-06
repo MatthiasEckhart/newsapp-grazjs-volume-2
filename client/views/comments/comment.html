@@ -1,0 +1,12 @@
+<template name="comment">
+    <div class="panel panel-default">
+        <div class="panel-heading">{{author}} on {{submittedText}}
+            {{#if ownerOfComment}}
+                <button class="glyphicon glyphicon-remove btn btn-danger btn-xs deleteComment"></button>
+            {{/if}}
+        </div>
+        <div class="panel-body">
+            <p>{{body}}</p>
+        </div>
+    </div>
+</template>

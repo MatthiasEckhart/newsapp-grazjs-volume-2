@@ -1,0 +1,12 @@
+<template name="newsItem">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="titleAuthor">
+                <h4><a href="{{pathFor 'newsPage'}}">{{title}}</a><span> - {{author}}</span></h4>
+            </div>
+            {{#if ownerOfNewsItem}}
+                <a href="{{pathFor 'newsEdit'}}" class="btn btn-default editButton">edit</a>
+            {{/if}}
+        </div>
+    </div>
+</template>

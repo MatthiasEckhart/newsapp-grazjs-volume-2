@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "bootstrap-3": {},
+    "iron-router": {},
+    "iron-router-progress": {},
+    "accounts-ui-bootstrap-3": {},
+    "spin": {},
+    "bootstrap3-wysihtml5": {}
+  }
+}

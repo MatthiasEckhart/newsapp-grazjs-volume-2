@@ -1,0 +1,13 @@
+.deleteComment { float: right; }
+
+textarea {
+    width: 100%;
+    height: auto;
+}
+
+.titleAuthor { float: left; }
+
+.editButton {
+    float: right;
+    display: inline;
+}
